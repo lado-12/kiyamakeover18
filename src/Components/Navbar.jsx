@@ -17,7 +17,7 @@ function Navbar() {
   </div>
 </nav>
 
-<img className='text-center ml-10 size-52 rounded-full ' src={a1} alt="external-makeup-hobbies-and-interest-smashingstocks-mixed-smashing-stocks"/>
+<img className='text-center ml-10 mt-5 size-52 rounded-full ' src={a1} alt="external-makeup-hobbies-and-interest-smashingstocks-mixed-smashing-stocks"/>
    
    </>
   )
