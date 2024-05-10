@@ -5,16 +5,16 @@ function Footer() {
     
         
 
-    <div className=' text-yellow-800 font-semibold  text-center font-serif w-full mt-10 text-6xl'>
+    <div className=' text-yellow-800 font-semibold  text-center font-serif w-full mt-10 text-3xl'>
   
   <br/><u>Thank You for Visiting KiyaMakeover18</u>
 
-   <ul class=" text-center text-5xl mt-5">
+   <ul class=" text-center text-4xl mt-5">
    
                                 
                                
                                 <li class=" ml-20">
-                                    <a href="#" class="hover:underline  ">Instagram</a>
+                                    <a href="https://www.instagram.com/kiyamakeover18/" class="hover:underline  ">Instagram</a>
                                 </li>
                                 </ul>
 <br/>
