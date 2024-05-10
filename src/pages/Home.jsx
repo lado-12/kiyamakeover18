@@ -132,13 +132,13 @@ function Home() {
   
   <br/><u>Services</u>
 </div>
-<div className="ml-10 mt-10 h-auto w-auto "><img className='rounded-3xl' src={a2}/></div>
+<div className=" mt-10 h-auto w-auto "><img className='rounded-3xl' src={a2}/></div>
 
 <div className=' text-yellow-800 font-semibold  text-center font-serif w-full mt-5 text-2xl'>
   
   <br/><u>Contact</u>
 </div>
-<div className="ml-10 mt-10 h-auto w-auto "><img className='rounded-3xl' src={a3}/></div>
+<div className=" mt-10 h-auto w-auto "><img className='rounded-3xl' src={a3}/></div>
 
 
 
