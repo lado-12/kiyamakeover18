@@ -13,7 +13,7 @@ import b6 from '../assets/b6.jpeg';
 import b7 from '../assets/b7.jpeg';
 import b8 from '../assets/b8.jpeg';
 import b9 from '../assets/b9.jpeg';
-import a1 from '../assets/a1.jpeg';
+
 import a2 from '../assets/a2.jpeg';
 import a3 from '../assets/a3.jpeg';
 import Footer from '../Components/Footer';
@@ -42,19 +42,19 @@ function Home() {
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
         <Navbar/>
-        <div className='mt-32'>
+        <div className='mt-20'>
         <div className='contaner  h-96   rounded-full'>
          <div className=' text-5xl text-pink-600 ml-40 flex'>
-         <h1   className='text-6xl font-serif ml-10 mt-28'>
+         <h1   className=' font-serif ml-10 mt-28'>
             {headerText}
         </h1>
-          <img className='mt-20 ml-72 mb-20 size-64 rounded-full ' src={a1} alt="external-makeup-hobbies-and-interest-smashingstocks-mixed-smashing-stocks"/>
+          
         </div>  
         </div>
 
         </div>
 
-<div className='flex  text-yellow-800 font-semibold whitespace-nowrap items-center  font-serif  mt-8  mb-20 text-6xl'>
+<div className='flex  text-yellow-800 font-semibold whitespace-nowrap items-center  font-serif  mt-8  mb-20 text-4xl'>
   <u>The Beautiful Brides</u>
 </div>
 
@@ -140,13 +140,13 @@ function Home() {
   <div className="w-96 h-96 ml-10 mt-40 "><img className='rounded-3xl' src={b9}/></div>
 </div> */}
 
-<div className=' text-yellow-800 font-semibold  text-center font-serif w-full text-6xl'>
+<div className=' text-yellow-800 font-semibold  text-center font-serif w-full text-2xl'>
   
   <br/><u>Services</u>
 </div>
 <div className="ml-20 mt-20 h-auto w-auto "><img className='rounded-3xl' src={a2}/></div>
 
-<div className=' text-yellow-800 font-semibold  text-center font-serif w-full mt-10 text-6xl'>
+<div className=' text-yellow-800 font-semibold  text-center font-serif w-full mt-10 text-2xl'>
   
   <br/><u>Contact</u>
 </div>
