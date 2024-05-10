@@ -42,77 +42,65 @@ function Home() {
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
         <Navbar/>
-        <div className='mt-20'>
-        <div className='contaner  h-96   rounded-full'>
-         <div className=' text-5xl text-pink-600 ml-40 flex'>
-         <h1   className=' font-serif ml-10 mt-28'>
+        
+         <h1   className=' text-center  text-yellow-800 font-semibold font-serif text-2xl'>
             {headerText}
         </h1>
           
-        </div>  
-        </div>
+       
 
-        </div>
-
-<div className='flex  text-yellow-800 font-semibold whitespace-nowrap items-center  font-serif  mt-8  mb-20 text-4xl'>
+<div className='text-center  text-yellow-800 font-semibold font-serif  mt-8 mb-20 text-4xl'>
   <u>The Beautiful Brides</u>
 </div>
 
 <Carousel autoPlay infiniteLoop interval={1000} showThumbs={false} showStatus={true} >
-        <div className=' '>
+       
         <img
       radius="md"
       src={b1}
     />
-        </div>
-        <div className=''>
+      
+        
         <img
       radius="md"
       src={b2}
     />
-        </div>
-        <div className=''>
+        
         <img
       radius="md"
       src={b3}
     />
-        </div>
-        <div className=''>
+       
         <img
       radius="md"
       src={b4}
     />
-        </div>
-        <div className=''>
+        
         <img
       radius="md"
       src={b5}
     />
-        </div>
-        <div className=''>
+        
         <img
       radius="md"
       src={b6}
     />
-        </div>
-        <div className=''>
+        
         <img
       radius="md"
       src={b7}
     />
-        </div>
-        <div className=''>
+       
         <img
       radius="md"
       src={b8}
     />
-        </div>
-        <div className=''>
+       
         <img
       radius="md"
       src={b9}
     />
-        </div>
+       
 </Carousel>
 
 
