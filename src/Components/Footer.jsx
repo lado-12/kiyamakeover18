@@ -9,11 +9,11 @@ function Footer() {
   
   <br/><u>Thank You for Visiting KiyaMakeover18</u>
 
-   <ul class=" text-center text-4xl mt-5">
+   <ul>
    
                                 
                                
-                                <li class=" ml-20">
+                                <li>
                                     <a href="https://www.instagram.com/kiyamakeover18/" class="hover:underline  ">Instagram</a>
                                 </li>
                                 </ul>
