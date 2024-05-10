@@ -6,17 +6,19 @@ function Navbar() {
    <>
    
 
-<nav className="flex fixed top-0 w-auto mt-2 text-4xl">
-  <div class=" items-center font-serif ">
-    <a href="" class="flex space-x-3 rtl:space-x-reverse ml-10">
-    <img width="80" height="90" src="https://img.icons8.com/external-photo3ideastudio-lineal-photo3ideastudio/64/external-makeup-supermarket-photo3ideastudio-lineal-photo3ideastudio.png" alt="makeup"/>
-        <span class="self-center text-yellow-800 font-semibold whitespace-nowrap "><u>KiyaMakeover18</u></span>
+   <nav className="fixed top-0 left-0 right-0 flex justify-center items-center mt-2 text-4xl">
+  <div className="font-serif">
+    <a href="" className="flex justify-center space-x-3 rtl:space-x-reverse">
+      <img src="https://img.icons8.com/external-photo3ideastudio-lineal-photo3ideastudio/64/external-makeup-supermarket-photo3ideastudio-lineal-photo3ideastudio.png" alt="makeup"/>
+      <span className="self-center text-yellow-800 font-semibold whitespace-nowrap">
+        <u>KiyaMakeover18</u>
+      </span>
     </a>
-   </div>
-   <img className='mt-20 ml-72 mb-20 size-64 rounded-full ' src={a1} alt="external-makeup-hobbies-and-interest-smashingstocks-mixed-smashing-stocks"/>
-       
+  </div>
 </nav>
 
+<img className='text-center ml-10 size-52 rounded-full ' src={a1} alt="external-makeup-hobbies-and-interest-smashingstocks-mixed-smashing-stocks"/>
+   
    </>
   )
 }
