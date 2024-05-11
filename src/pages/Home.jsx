@@ -53,7 +53,7 @@ function Home() {
   <u>The Beautiful Brides</u>
 </div>
 
-<Carousel showThumbs={true} showStatus={true} >
+<Carousel showThumbs={true} showStatus={true} touchMove={true} >
        
         <img
       radius="md"
