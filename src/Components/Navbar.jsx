@@ -1,19 +1,14 @@
-import React, { useState,useEffect } from 'react'
-//import { MyContext } from '../Helper/AppContext'
-import a4 from '../assets/a4.jpeg';
-function Navbar() {
+import React, { useState } from 'react';
+
+const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
+  };
+
   return (
-   <>
-   
-
-   
-
-<img className='text-center ml-20 mt-16 size-52 rounded-full ' src={a4} alt="external-makeup-hobbies-and-interest-smashingstocks-mixed-smashing-stocks"/>
-   <div className="flex justify-end items-center">
+    <div className="flex justify-end items-center">
       <button className="block md:hidden" onClick={toggleMenu}>
         <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7"></path>
@@ -35,8 +30,7 @@ function Navbar() {
         </div>
       )}
     </div>
-   </>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
