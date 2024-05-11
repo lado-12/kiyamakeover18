@@ -1,6 +1,6 @@
 import React, { useState,useEffect } from 'react'
 //import { MyContext } from '../Helper/AppContext'
-import a1 from '../assets/a1.jpeg';
+import a4 from '../assets/a4.jpeg';
 function Navbar() {
   return (
    <>
@@ -17,7 +17,7 @@ function Navbar() {
   </div>
 </nav>
 
-<img className='text-center ml-20 mt-16 size-52 rounded-full ' src={a1} alt="external-makeup-hobbies-and-interest-smashingstocks-mixed-smashing-stocks"/>
+<img className='text-center ml-20 mt-16 size-52 rounded-full ' src={a4} alt="external-makeup-hobbies-and-interest-smashingstocks-mixed-smashing-stocks"/>
    
    </>
   )
