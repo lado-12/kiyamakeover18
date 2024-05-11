@@ -18,9 +18,22 @@ function Navbar() {
 </nav>
 
 <img className='text-center ml-20 mt-16 size-52 rounded-full ' src={a4} alt="external-makeup-hobbies-and-interest-smashingstocks-mixed-smashing-stocks"/>
-   <div className='fixed top-0 left-0 right-0 mt-14 ml-96 text-3xl cursor-pointer'>
-    Contact
-   </div>
+   <div className="bg-gray-200 h-screen w-64 fixed left-0 top-0 pt-16">
+      <div className="p-4">
+        <h2 className="text-xl font-bold mb-4">Contact Us</h2>
+        <ul>
+          <li className="mb-2">
+            <a href="#" className="text-blue-500 hover:underline">Email</a>
+          </li>
+          <li className="mb-2">
+            <a href="#" className="text-blue-500 hover:underline">Phone</a>
+          </li>
+          <li className="mb-2">
+            <a href="#" className="text-blue-500 hover:underline">Address</a>
+          </li>
+        </ul>
+      </div>
+    </div>
    </>
   )
 }
