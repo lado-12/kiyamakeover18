@@ -33,7 +33,7 @@ function Home() {
       if (currentText === text) {
         clearInterval(interval);
       }
-    }, 100);
+    }, 500);
 
     return () => clearInterval(interval);
   }, []);
@@ -53,7 +53,7 @@ function Home() {
   <u>The Beautiful Brides</u>
 </div>
 
-<Carousel autoPlay infiniteLoop interval={1000} showThumbs={false} showStatus={true} >
+<Carousel showThumbs={true} showStatus={true} >
        
         <img
       radius="md"
@@ -66,10 +66,6 @@ function Home() {
       src={b2}
     />
         
-        <img
-      radius="md"
-      src={b3}
-    />
        
         <img
       radius="md"
