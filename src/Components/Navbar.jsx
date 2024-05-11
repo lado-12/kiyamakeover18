@@ -18,7 +18,7 @@ function Navbar() {
 </nav>
 
 <img className='text-center ml-20 mt-16 size-52 rounded-full ' src={a4} alt="external-makeup-hobbies-and-interest-smashingstocks-mixed-smashing-stocks"/>
-   <div className='fixed mt-16 ml-96   text-3xl cursor-pointer'>
+   <div className='fixed top-0 left-0 right-0 mt-10 ml-96 text-3xl cursor-pointer'>
     contact
    </div>
    </>
