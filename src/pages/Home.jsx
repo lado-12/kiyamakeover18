@@ -33,7 +33,7 @@ function Home() {
       if (currentText === text) {
         clearInterval(interval);
       }
-    }, 500);
+    }, 10);
 
     return () => clearInterval(interval);
   }, []);
